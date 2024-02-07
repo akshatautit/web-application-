@@ -1,0 +1,27 @@
+/* body{
+    background-color: #190d08;
+  } */
+  /* Reset some default margin and padding */
+
+/* Style the footer */
+footer {
+  background-color: #422f1f; /* Dark brown background color */
+  color: #fff; /* White text color */
+  height: 200px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  margin-top: 60px;
+}
+
+/* Style the footer links if needed */
+.footer a {
+  color: #fff; /* White link color */
+  text-decoration: none;
+  margin-right: 20px; /* Add some spacing between links */
+}
+
+/* Style footer on hover if needed */
+.footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

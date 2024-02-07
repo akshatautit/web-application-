@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #422f1f; /* Light cream background */
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    background-color: #F2D5A1; /* Light beige background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 0;
+    color: #7D3C13; /* Dark brown text color */
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.cart-items img {
+    max-width: 50px;
+    height: auto;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.coupon {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.coupon input[type="text"] {
+    padding: 5px;
+    border: 1px solid #7D3C13; /* Dark brown border */
+}
+
+.coupon button {
+    padding: 5px 20px;
+    background-color: #7D3C13;
+    color: #F7E9D1; /* Light cream text color */
+    border: none;
+    border-radius: 5px;
+}
+
+.payment {
+    margin-top: 20px;
+}
+
+.address {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F2D5A1; /* Light beige background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.address textarea {
+    padding: 10px;
+    border: 1px solid #7D3C13; /* Dark brown border */
+    border-radius: 5px;
+}
+
+.success-message {
+    margin-top: 20px;
+    color: #006400; /* Dark green text color */
+}
+
